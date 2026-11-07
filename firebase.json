@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-classmat-d3f25ca5-b94b-439e-a5d2-d372850bdcaa",
+      "rules": "firestore.rules"
+    }
+  ]
+}

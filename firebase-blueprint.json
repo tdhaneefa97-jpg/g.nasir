@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "uid": { "type": "string", "required": true },
+        "email": { "type": "string", "required": false },
+        "displayName": { "type": "string", "required": false },
+        "classmateId": { "type": "string", "required": false },
+        "role": { "type": "string", "required": true },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "Account": {
+      "collection": "accounts",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "secretCode": { "type": "string", "required": true },
+        "phone": { "type": "string", "required": true },
+        "batchInfo": { "type": "string", "required": true },
+        "role": { "type": "string", "required": true },
+        "isPhoneConfirmed": { "type": "boolean", "required": true },
+        "isSecured": { "type": "boolean", "required": true },
+        "approvalStatus": { "type": "string", "required": true },
+        "createdAt": { "type": "timestamp", "required": true }
+      }
+    },
+    "Message": {
+      "collection": "messages",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "conversationId": { "type": "string", "required": true },
+        "senderId": { "type": "string", "required": true },
+        "senderName": { "type": "string", "required": true },
+        "receiverId": { "type": "string", "required": false },
+        "text": { "type": "string", "required": true },
+        "timestamp": { "type": "timestamp", "required": true }
+      }
+    }
+  }
+}

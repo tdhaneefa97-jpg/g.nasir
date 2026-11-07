@@ -1,0 +1,6 @@
+{
+  "name": "Viswam 7A",
+  "description": "VISWAM School CBSE 7A alumni and classmate portal with 3D intro animation, dual-key admin controls, classmate ID management, WhatsApp-style chats, trivia arena, and election voting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
